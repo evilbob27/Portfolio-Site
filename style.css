@@ -1,5 +1,7 @@
 * {
     font-family: "Quattrocento", serif;
+    outline: 2px solid red;
+    box-sizing: border-box;
 }
 
 :root {
@@ -20,4 +22,8 @@ a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+.specific-nav {
+    margin-left: 1440px;
 }
