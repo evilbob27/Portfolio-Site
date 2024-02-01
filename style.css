@@ -1,7 +1,7 @@
 * {
     font-family: "Quattrocento", serif;
-  }
-  
+}
+
 :root {
     background-color: #1d1c1c;
 }
@@ -13,12 +13,6 @@ figcaption {
     color: whitesmoke;
 }
 
-p { 
-   
-}
-figcaption {
-    
-}
 a {
     background-color: #2a2929;
     color: whitesmoke;
@@ -26,5 +20,4 @@ a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-
+}
