@@ -6,9 +6,17 @@
     background-color: #1d1c1c;
 }
 
+h1 {
+    color: whitesmoke;
+}
+
+p { 
+    color: whitesmoke;
+}
+
 a {
     background-color: #2a2929;
-    color: white;
+    color: whitesmoke;
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
