@@ -2,6 +2,9 @@
     font-family: "Quattrocento", serif;
   }
   
+:root {
+    background-color: #1d1c1c;
+}
 
 a {
     background-color: #2a2929;
