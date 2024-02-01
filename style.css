@@ -13,7 +13,9 @@ h1 {
 p { 
     color: whitesmoke;
 }
-
+figcaption {
+    color: whitesmoke;
+}
 a {
     background-color: #2a2929;
     color: whitesmoke;
