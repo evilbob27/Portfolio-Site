@@ -6,15 +6,18 @@
     background-color: #1d1c1c;
 }
 
-h1 {
+h1,
+h2,
+p,
+figcaption {
     color: whitesmoke;
 }
 
 p { 
-    color: whitesmoke;
+   
 }
 figcaption {
-    color: whitesmoke;
+    
 }
 a {
     background-color: #2a2929;
