@@ -28,6 +28,14 @@
     margin-bottom: 0px;
 }
 
+.navigation-link {
+    margin: 1px;
+}
+
+.navigation-link:hover {
+    background-color: #1d1c1c;
+}
+
 .section-title {
     font-size: 48px;
     margin: 0px;
