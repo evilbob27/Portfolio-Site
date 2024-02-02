@@ -8,6 +8,38 @@
     background-color: #1d1c1c;
 }
 
+.site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.navigation-list {
+    display: flex;
+    list-style: none;
+    margin-top: 75px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+
+.home-title {
+    font-size: 48px;
+    margin: 0px;
+}
+
+.demo-reel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 h1,
 h2,
 p,
@@ -22,8 +54,4 @@ a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-}
-
-.navigation-list {
-    margin-left: 1440px;
 }
