@@ -32,7 +32,8 @@
     margin: 1px;
 }
 
-.navigation-link:hover {
+.navigation-link:hover,
+.game-link:hover {
     background-color: #1d1c1c;
 }
 
@@ -71,6 +72,6 @@ a {
     list-style: none;
 }
 
-.track-title {
+.media-title {
     text-align: center;
 }
