@@ -27,13 +27,12 @@
     margin-top: 75px;
     margin-right: 100px;
     margin-bottom: 0px;
+    gap: 2px;
 }
 
 .navigation-link {
     padding-top: 17px;
     padding-bottom: 13px;
-    margin: 1px;
-    margin-bottom: 0px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     letter-spacing: 2px;
