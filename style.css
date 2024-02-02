@@ -30,10 +30,13 @@
 }
 
 .navigation-link {
+    padding-top: 17px;
+    padding-bottom: 13px;
     margin: 1px;
     margin-bottom: 0px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    letter-spacing: 2px;
 }
 
 .game-link {
@@ -48,6 +51,7 @@
 .section-title {
     font-size: 48px;
     margin: 0px;
+    letter-spacing: 5px;
 }
 
 .main-section {
