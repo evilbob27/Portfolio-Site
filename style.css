@@ -122,6 +122,8 @@ body {
 .main-section {
     align-items: center;
     background-color: #171616;
+    border-left: 3px solid #2a2929;
+    border-right: 3px solid #2a2929;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -129,6 +131,13 @@ body {
     margin-top: 0px;
     margin-left: 250px;
     margin-right: 250px;
+}
+
+.music-container {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
 }
 
 a {
@@ -143,7 +152,7 @@ a {
 .game-list {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 50px;
     justify-content: space-around;
     list-style: none;
 }
