@@ -178,3 +178,17 @@ a {
     font-size: 36px;
     margin: 150px;
 }
+
+.record {
+    animation: 4s linear 1s record-spin infinite;   
+}
+
+@keyframes record-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
