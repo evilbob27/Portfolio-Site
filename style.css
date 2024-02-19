@@ -69,8 +69,14 @@ body {
 }
 
 .contact-form {
+    align-items: start;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-message {
+    display: flex;
 }
 
 .contact-submit {
@@ -79,6 +85,10 @@ body {
 
 .contact-submit:hover {
     background-color: #1d1c1c;
+}
+
+input {
+    background-color: #2a2929;
 }
 
 :root {
@@ -194,6 +204,10 @@ a {
 
 .record {
     animation: 4s linear 1s record-spin infinite;   
+}
+
+textarea {
+    background-color: #2a2929;
 }
 
 @keyframes record-spin {
