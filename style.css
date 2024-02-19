@@ -69,14 +69,13 @@ body {
 }
 
 .contact-form {
-    align-items: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.contact-message {
+.contact-info {
     display: flex;
+    flex-direction: column;
 }
 
 .contact-submit {
@@ -89,6 +88,8 @@ body {
 
 input {
     background-color: #2a2929;
+    border: 1px solid whitesmoke;
+    font-style: italic;
 }
 
 :root {
@@ -208,6 +209,9 @@ a {
 
 textarea {
     background-color: #2a2929;
+    border: 1px solid whitesmoke;
+    font-style: italic;
+    resize: none;
 }
 
 @keyframes record-spin {
