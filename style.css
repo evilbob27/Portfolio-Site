@@ -68,6 +68,19 @@ body {
     margin: 50px;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-submit {
+    background-color: #2a2929;
+}
+
+.contact-submit:hover {
+    background-color: #1d1c1c;
+}
+
 :root {
     background-image: url(../media/earthpictureai3.jpg);
     background-repeat: no-repeat;
