@@ -63,9 +63,15 @@ body {
     margin: 0;
 }
 
-.contact-text {
+.contact-owner-info {
     font-size: 24px;
     margin: 50px;
+}
+
+.contact-button {
+    align-items: center;
+    display: flex;
+    justify-content: start;
 }
 
 .contact-form {
@@ -73,7 +79,7 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.contact-info {
+.contact-user-info {
     display: flex;
     flex-direction: column;
 }
@@ -90,6 +96,7 @@ input {
     background-color: #2a2929;
     border: 1px solid whitesmoke;
     font-style: italic;
+    width: 100%;
 }
 
 :root {
@@ -210,8 +217,11 @@ a {
 textarea {
     background-color: #2a2929;
     border: 1px solid whitesmoke;
+    display: block;
     font-style: italic;
+    height: 100%;
     resize: none;
+    width: 100%;
 }
 
 @keyframes record-spin {
