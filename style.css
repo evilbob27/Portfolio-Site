@@ -64,8 +64,8 @@ body {
 }
 
 .contact-owner-info {
-    font-size: 24px;
-    margin: 50px;
+    font-size: 1.5rem;
+    margin: 3.125rem;
 }
 
 .contact-button {
@@ -78,8 +78,9 @@ body {
 
 .contact-form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: .25rem;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
 }
 
 .contact-user-info {
@@ -110,11 +111,11 @@ input::placeholder {
 }
 
 :root {
-    background-image: url(../media/earthpictureai3.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
     background-color: #1d1c1c;    
+    background-image: url(../media/earthpictureai3.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .site-header {
@@ -218,6 +219,10 @@ a {
 .resume {
     font-size: 2.5rem;
     margin: 8rem;
+    border-top: .25rem solid #787777;
+    border-left: .25rem solid #787777;
+    border-right: .25rem solid #000000;
+    border-bottom: .25rem solid #000000;
 }
 
 .record {
@@ -230,6 +235,7 @@ textarea {
     display: block;
     font-style: italic;
     height: 100%;
+    padding-right: 4rem;
     resize: none;
     width: 100%;
 }
