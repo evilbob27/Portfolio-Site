@@ -71,21 +71,27 @@ body {
 .contact-button {
     align-items: center;
     display: flex;
-    justify-content: start;
+    grid-column: 1/ span 2;
+    justify-content: end;
+    margin-top: .5rem;
 }
 
 .contact-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: .25rem;
 }
 
 .contact-user-info {
     display: flex;
     flex-direction: column;
+    gap: .25rem;
 }
 
 .contact-submit {
     background-color: #2a2929;
+    font-size: 1rem;
+    padding: .5rem 1rem .5rem 1rem;
 }
 
 .contact-submit:hover {
@@ -95,8 +101,12 @@ body {
 input {
     background-color: #2a2929;
     border: 1px solid whitesmoke;
-    font-style: italic;
+    padding: .5rem;
     width: 100%;
+}
+
+input::placeholder {
+    font-style: italic;
 }
 
 :root {
