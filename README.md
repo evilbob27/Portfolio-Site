@@ -1,1 +1,1 @@
-This is my first website. It is a portfolio and resume site to make me appear as hireable as possible as a webdev or sound designer or similar fields. Please wish me luck lol.
+This is my first website.
